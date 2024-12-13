@@ -1,0 +1,35 @@
+.root {
+    -fx-background-color: #2a2a2a;  /* Fond sombre */
+    -fx-font-family: "Arial";       /* Police lisible */
+}
+
+.label {
+    -fx-text-fill: #fff;            /* Texte blanc */
+    -fx-font-size: 18px;            /* Taille de police */
+    -fx-padding: 10px;
+}
+
+.button {
+    -fx-background-color: #4CAF50;  /* Boutons verts */
+    -fx-text-fill: white;           /* Texte en blanc */
+    -fx-font-size: 16px;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: innershadow(gaussian, #000, 3, 0, 1, 1);
+}
+
+.button:hover {
+    -fx-background-color: #45a049;  /* Hover pour bouton */
+}
+
+.button:pressed {
+    -fx-background-color: #388e3c;  /* Effet quand appuyé */
+}
+
+.label-header {
+    -fx-font-size: 24px;
+    -fx-text-fill: #f4a261;           /* Couleur d'accent */
+    -fx-font-weight: bold;
+    -fx-padding: 20px;
+}
